@@ -1,0 +1,36 @@
+/* Media query at 1400px  */
+@media screen and (max-width: 1399px) {
+  .profile-card {
+    width: 30%;
+    height: 65%;
+  }
+  .profile-card figure {
+    width: 50%;
+  }
+  .profile-card .contact-btn a {
+    font-size: 14px;
+  }
+  .profile-card .contact-btn .download {
+    font-size: 14px;
+  }
+}
+
+/* Media query at 1200px  */
+@media screen and (max-width: 1199px) {
+  .profile-card {
+    width: 40%;
+    height: 75%;
+  }
+}
+
+/* Media query at 480px  */
+@media screen and (max-width: 480px) {
+  .profile-card {
+    width: 90%;
+    height: 65%;
+    padding: 2%;
+  }
+  .profile-card figure{
+    width: 51%;
+  }
+}
